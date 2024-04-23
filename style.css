@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.poga{
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(220, 108, 213);
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.poga:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.poga:active{
+    background-color: rgb(94, 25, 158);
+}
